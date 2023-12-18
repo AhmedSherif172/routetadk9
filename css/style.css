@@ -1,0 +1,76 @@
+body{
+    background-color: #F7ECDE;
+}
+.head{
+    font-family: 'Pacifico';
+    font-size: 50px !important;
+}
+.head-h1{
+    width: fit-content;
+    font-size: 50px !important;
+    position: relative;
+}
+.head-h1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 28%;
+    bottom: 0;
+    z-index: -1;
+    background-color: #fec260;
+    transition: 0.3s;
+}
+.head-h1:hover::before{
+    height: 55%;
+}
+hr{
+    border-top: 2px dotted black;
+}
+.bookmark{
+    font-family: 'Righteous', sans-serif;
+}
+.bookmark-h2{
+    font-size: 25px !important;
+    background: linear-gradient(to right, #3EA55B 40%,#B1AC49 60%);
+    background-clip: text;
+    color: transparent;
+}
+.elinput{
+    border-color: rgba(0, 0, 0, 0.404) !important;
+    height: 40px;
+}
+.submitbtn{
+    background-color: #D1512D;
+    width: 155px;
+    height: 40px;
+}
+.visitbtn{
+    background-color: #9EB23B;
+    transition: 0.3s;
+}
+.visitbtn:hover{
+    background-color: #8A9E23;
+}
+.deletebtn{
+    background-color: #EB1D36;
+    transition: 0.3s;
+
+}
+.deletebtn:hover{
+    background-color: #D30820;
+}
+.form-control{
+    transition: 0.3s;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0.2rem #FADEB4 ;
+}
+.focus-border:focus{
+    border-color: #D99C39 !important;
+}
+.valid-border{
+    border-color: #198754 !important;
+}
+.invalid-border{
+    border-color: #DC3545 !important;
+}
